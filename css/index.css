@@ -166,6 +166,26 @@ p {
     align-items: center;
     justify-content: center;
 }
+input[type=text]{
+    padding: 5px;
+    margin: 15px 0px;
+    width:100%;
+    border:2px solid black;
+    border-radius: 9px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    background-color:white;
+}
+input[type=submit]{
+    padding: 5px;
+    margin: 15px 0px;
+    width:30%;
+    border:2px solid black;
+    border-radius: 9px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    background-color:white;
+}
 
 .bottom-content {
     display: flex;
