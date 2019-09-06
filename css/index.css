@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+html, header, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -28,6 +28,29 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/*header*/
+.headNavBar{
+    padding: 35px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.headNavBar nav{
+    padding-top: 20px;
+    font-size: 14px;
+    width: 75%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headNavBar nav a{
+    color: black;
+    text-decoration: none;
+}
+.headerImg{
+padding: 0px 0px 25px 0px;
+}
+
 body {
 	line-height: 1;
 }
@@ -84,6 +107,11 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.aboutTopContent{
+    padding: 15px; 
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+ }
 
 .middle-content {
     margin-bottom: 20px;
@@ -94,7 +122,34 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+.aboutContent{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aboutContainer{
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    width:48%;
+    border-bottom: 1px dashed black;
+}
+.aboutContainer img{
+    margin-bottom: 15px;
+}
+.aboutContainer p{
+    font-family: 'Rubik', sans-serif;
+}
+.aboutContainer button{
+    padding: 5px;
+    margin: 15px 0px;
+    width:30%;
+    border:2px solid black;
+    border-radius: 9px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    background-color:white;
+}
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +180,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.aboutBottomContent{
+   padding: 25px; 
+   margin-bottom: 20px;
+}
 
 footer {
     width: 100%;
@@ -143,4 +202,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
 }
